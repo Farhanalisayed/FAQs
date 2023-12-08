@@ -20,13 +20,12 @@ const FaqItem = props => {
     <li className="card">
       <div className="upper-part">
         <h1 className="question">{questionText}</h1>
-        <button type="button" className="btn" onClick={onClicked}>
-          <img src={imgUrl} className="image" alt={altText} />
-        </button>
+
+        <img src={imgUrl} className="image" onClick={onClicked} alt={altText} />
       </div>
 
-      {clickedList.includes(id) ? <hr /> : <></>}
-      {clickedList.includes(id) ? <p className="anser">{answerText}</p> : <></>}
+      {clickedList.includes(id) ? <hr /> : ''}
+      {clickedList.includes(id) ? <p className="anser">{answerText}</p> : ''}
     </li>
   )
 }
