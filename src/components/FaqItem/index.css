@@ -1,0 +1,35 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+.card {
+  border: 0px solid;
+  border-radius: 8px;
+}
+hr {
+  height: 1px;
+  color: #d7dae6;
+}
+.anser {
+  color: #9aa5b1;
+  font-size: 16px;
+}
+.question {
+  color: #52606d;
+  font-size: 20px;
+}
+.image {
+  height: 15px;
+  width: 15px;
+}
+.btn {
+  height: 17px;
+  width: 17px;
+  background-color: transparent;
+  border: 0px;
+}
+.upper-part{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
