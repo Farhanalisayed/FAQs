@@ -12,7 +12,7 @@ class Faqs extends Component {
 
   removeClick = id => {
     this.setState(prevState => ({
-      clickedList: prevState.clickedList.filter(each => each.id !== id),
+      clickedList: prevState.clickedList.filter(each => each !== id),
     }))
   }
 
